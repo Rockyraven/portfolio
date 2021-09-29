@@ -86,4 +86,13 @@ footer{
 .footer .footer-header{
    font-size: large;
 }
-     
+.link-primary{
+   background-color: var(--primary-color);
+   color: white;
+   
+}
+.link-secondary{
+   color: var(--primary-color);
+    
+   border: 1px solid var(--primary-color);
+}
