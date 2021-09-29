@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Playfair+Display&family=Roboto+Slab:wght@100&display=swap');
  
 :root{
-   --primary-color: #6C63FF;
+   --primary-color: #003366;
+   --dark-gray: #a8a8a8;
+   --off-white: #f5f5f0;
 }
 
 
@@ -10,10 +12,7 @@ body{
     font-family: 'Playfair Display', serif;
  }
  
- .hero{
-    max-width: 500px;
-    margin: auto;
-
+  
  }
  .list-non-bullet{
     list-style: none;
@@ -43,5 +42,46 @@ padding: 0rem 0.5rem;
 .navigation .link-active{
    font-weight: bold;
 }
+.hero {
+   padding: 2rem;
+
+}
+.hero .hero-img{
+   max-width: 350px;
+   display: block;
+   margin: auto;
+
+}
    
+.hero .hero-handling{
+   text-align: center;
+   color: var(--dark-gray);
+   
+
+}
+.hero .hero-handling .handling-color{
+   color: var(--primary-color);
+}
+.section{
+   padding: 2rem;
+}
+
+.section h1{
+   text-align: center;
+   padding: 1rem;
+}
+
+.ow {
+   background-color: var(--off-white);
+}
+footer{
+   background-color: var(--primary-color);
+   padding: 2rem 1rem;
+   text-align: center;
+   color: white;
+}
+.footer .link{
+   color: white;
+}
+
      
