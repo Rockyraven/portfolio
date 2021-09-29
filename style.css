@@ -83,5 +83,7 @@ footer{
 .footer .link{
    color: white;
 }
-
+.footer .footer-header{
+   font-size: large;
+}
      
