@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Playfair+Display&family=Roboto+Slab:wght@100&display=swap');
+ 
+:root{
+   --primary-color: #6C63FF;
+}
+
+
+
+body{
+    font-family: 'Playfair Display', serif;
+ }
+ 
+ .hero{
+    max-width: 500px;
+    margin: auto;
+
+ }
+ .list-non-bullet{
+    list-style: none;
+ }
+ .list-item-inline{
+display: inline;
+padding: 0rem 0.5rem;
+ }
+ .navigation .nav-brand{
+    font-weight: bold;
+    font-size: large;
+    color: white;
+ }
+
+ .navigation {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    
+ }
+ .navigation .nav-pills{
+    text-align: right;
+ }
+ .navigation .link{
+    color: white;
+ }
+.navigation .link-active{
+   font-weight: bold;
+}
+   
+     
