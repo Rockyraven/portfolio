@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+ }
+ .hero .gitlogo-img{
+    max-width: 500px;
+    display: block;
+    margin: auto;
+    margin-down: 2rem;
+    
+ 
+ }
+ h3{
+     color: blue;
+      
+     margin: 2rem;
+ }
+     
